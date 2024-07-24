@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import 'dotenv/config'
 
 import { WaConnection, handleDisconnect } from './lib/whatsapp.js';
 import Plugin from './lib/plugin.js';
